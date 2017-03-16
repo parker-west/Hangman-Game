@@ -18,21 +18,6 @@ console.log("this works")
 //variable to store the index of each letter of a word in the array.
 	var letterIndex = 0;
 
-//select a word from the array for user to guess.
-	//***started with a for loop but it will go through the whole array.
-		// function newWord(word) {
-		// 	for (i = 0; i > instruments.length; i++) {
-		// 	console.log(word[i]);	
-		// 	}
-		// };
-
-		// newWord(instruments
-
-	//creating variable and using random selector method discussed in class.
-		//*** doesn't produce the result I expected.
-			// var word = [Math.floor(Math.random()*instruments.length)];
-			// console.log(word);
-
 	//function to render question inspired by in-class assignment "question-game-solved.html"
 		function renderWord() {
 			//if there are still more words left in intruments array, render the next one.
