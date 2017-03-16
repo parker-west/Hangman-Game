@@ -18,17 +18,46 @@ console.log("this works")
 //variable to store the index of each letter of a word in the array.
 	var letterIndex = 0;
 
-	//function to render question inspired by in-class assignment "question-game-solved.html"
-		function renderWord() {
-			//if there are still more words left in intruments array, render the next one.
-			if (wordIndex <= (instruments.length -1)) {
-				document.querySelector("#letters").innerHTML = instruments[wordIndex]; 
-			} else {
-				document.querySelector("#result-message").innerHTML = "You lose!"
-			}
-		}
+//variable to store number of dashes (-) to show in place of letters during game
+	var letterDashes = 0;
 
-renderWord();
+	var numChars = 
+
+//function to render question inspired by in-class assignment "question-game-solved.html"
+	function renderWord() {
+		//if there are still more words left in intruments array, render the next one.
+		if (wordIndex <= (instruments.length -1)) {
+			document.querySelector("#letters").innerHTML = instruments[wordIndex]; 
+		} else {
+			document.querySelector("#result-message").innerHTML = "You lose!";
+		}
+	}
+
+	renderWor();
+
+
+	function renderWor() {
+		//if there are still more words left in intruments array, render the next one.
+		if (wordIndex <= (instruments.length -1)) {
+			document.querySelector("#letters").innerHTML = instruments[wordIndex]; 
+		} else {
+			document.querySelector("#result-message").innerHTML = "You lose!";
+		}
+	}
+
+	
+
+
+ //function to produce dashes based on number of letters in renderWord
+	
+
+
+// 	function renderDashes() {
+// 		for (i = 0; i <= wordIndex.length; i++) {
+// 			document.querySelector("#letters").innerHTML = "-";
+// 		}
+// 	}
+// renderDashes();
 
 
 	
